@@ -267,8 +267,8 @@ const fs = require('fs');
 const path = require('path');
 
 ffmpeg.setFfmpegPath(ffmpegPath);
-
-const TOKEN = process.env.BOT_TOKEN || "8588055575:AAFfT0ZhWvNW3nFyqmzjwrkEzAxQ49_3n08";
+//|| "8588055575:AAFfT0ZhWvNW3nFyqmzjwrkEzAxQ49_3n08"
+const TOKEN = process.env.BOT_TOKEN ;
 
 const SOURCE_GROUP_ID = -1001111111111;
 const TARGET_GROUP_ID = -1002222222222;
